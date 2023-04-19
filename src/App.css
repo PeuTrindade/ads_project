@@ -1,0 +1,18 @@
+:root {
+    --light: #F8F9FA;
+    --success: #198754;
+    --dark: #383838;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Inria Sans';
+}

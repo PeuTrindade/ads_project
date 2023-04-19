@@ -1,0 +1,78 @@
+.headerContainer {
+    width: 100%;
+    background-color: var(--light);
+    height: 4rem;
+    box-shadow: 0 1px 7px gray;
+}
+
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mainContent {
+    display: flex;
+    margin-top: .5rem;
+    margin-left: 2%;
+}
+
+
+.mainContent img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 1px 1px 2px gray;
+    cursor: pointer;
+}
+
+
+.textContainer {
+    margin-left: .7rem;
+    margin-top: .3rem;
+}
+
+
+.textContainer h3 {
+    font-size: 1rem;
+    color: var(--dark);
+}
+
+
+.textContainer p {
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
+
+.navbarContainer a {
+    margin-right: 2%;
+    margin-top: .7rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: var(--success);
+    color: white;
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+
+.navbarContainer a:hover {
+    background-color: #15613E;
+}
+
+
+.icon {
+    margin-right: .2rem;
+    margin-top: .1rem;
+}
+
+
+@media screen and (max-width: 516px) {
+    .navbarContainer a {
+        display: none;
+    }
+}
